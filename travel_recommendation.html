@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Recommendation Website</title>
+  <link rel="stylesheet" href="travel_recommendation.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <span class="brand">TravelBuddy</span>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div class="search-box">
+      <input class="search-input" type="text" id="searchInput" placeholder="Enter a destination or keyword" />
+      <!-- <button class="icon" onclick="handleSearch()">🔍</button> -->
+      <button class="search-btn" onclick="handleSearch()">Search</button>
+      <button class="clear-btn" onclick="handleReset()">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <header class="hero-section">
+    <div class="hero-text">
+      <h1>DISCOVER</h1>
+      <h1>UNFORGETTABLE</h1>
+      <h1>JOURNEYS</h1>
+      <p>We help you uncover hidden gems and create experiences that stay with you forever. Your next adventure starts here.</p>
+      <button class="book-btn">Book Now</button>
+    </div>
+  </header>
+
+  <!-- About Us Content -->
+  <div class="container">
+    <h1>About Us</h1>
+    <p>At YourCompany, we are passionate about delivering innovative solutions that drive success for our clients. Founded in 2020, we specialize in web development, product design, and digital transformation. Our mission is to empower businesses through technology and creativity.</p>
+
+    <h2>Meet the Team</h2>
+    <div class="team">
+      <div class="member">
+        <h3>Jane Doe</h3>
+        <p>Chief Executive Officer</p>
+      </div>
+      <div class="member">
+        <h3>John Smith</h3>
+        <p>Head of Development</p>
+      </div>
+      <div class="member">
+        <h3>Samantha Lee</h3>
+        <p>UI/UX Designer</p>
+      </div>
+      <div class="member">
+        <h3>Michael Brown</h3>
+        <p>Marketing Manager</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us Content -->
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button class="contact-btn" type="submit">Send Message</button>
+    </form>
+  </div>
+
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
+
