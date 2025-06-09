@@ -15,15 +15,15 @@
 
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="#about-us">About Us</a>
+      <a href="#contact-us">Contact Us</a>
     </div>
 
     <div class="search-box">
       <input class="search-input" type="text" id="searchInput" placeholder="Enter a destination or keyword" />
       <!-- <button class="icon" onclick="handleSearch()">🔍</button> -->
-      <button class="search-btn" onclick="handleSearch()">Search</button>
-      <button class="clear-btn" onclick="handleReset()">Clear</button>
+      <button class="search-btn" id="searchBtn onclick="handleSearch()">Search</button>
+      <button class="clear-btn" onclick="resetSearchInput()">Clear</button>
     </div>
   </nav>
 
@@ -40,7 +40,7 @@
 
   <!-- About Us Content -->
   <div class="about-con">
-    <section class="about-section">
+    <section class="about-section" id="about-us">
         <h1>ABOUT US</h1>
         <p>Welcome to TravelBloom! We are a passionate team committed to making travel seamless, enjoyable, and memorable. Our purpose is to connect people with incredible destinations while delivering outstanding customer service and personalized travel experiences.</p>
         <p>We value trust, innovation, collaboration, and excellence. At TravelBloom, we go the extra mile to <b>ensure our customers feel valued</b> and <b>inspired on every journey</b> they take with us.</p>
@@ -72,7 +72,7 @@
 
   <!-- Contact Us Content -->
   <div class="contact-con">
-    <section class="contact-section">
+    <section class="contact-section" id="contact-us">
         <h1>CONTACT US</h1>
         <p>Get in touch</p>
         <form class="contact-form">
@@ -83,6 +83,10 @@
         </form>
       </section>
   </div>
+
+  <!-- destination recommendation -->
+  <h1 style="text-align:center;">Travel Recommendations</h1>
+  <div id="recommendations"></div>
 
 
   <script src="travel_recommendation.js"></script>

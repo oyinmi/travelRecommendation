@@ -256,3 +256,26 @@ body {
   .contact-form button:hover {
     background-color: #06a9a9;
   }
+
+  /* recommendation display card */
+  .card {
+      border: 1px solid #ccc;
+      padding: 16px;
+      margin: 12px;
+      border-radius: 8px;
+      max-width: 300px;
+      background-color: #f9f9f9;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    #recommendations {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
