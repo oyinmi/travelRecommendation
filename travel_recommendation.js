@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // to clear search box
 function resetSearchInput() {
-  document.getElementById("searchLocationByInput").value = "";
+  document.getElementById("searchInput").value = "";
 }
 
 

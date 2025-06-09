@@ -21,21 +21,25 @@
 
     <div class="search-box">
       <input class="search-input" type="text" id="searchInput" placeholder="Enter a destination or keyword" />
-      <!-- <button class="icon" onclick="handleSearch()">🔍</button> -->
-      <button class="search-btn" id="searchBtn onclick="handleSearch()">Search</button>
+      <button class="search-btn" id="searchBtn">Search</button>
       <button class="clear-btn" onclick="resetSearchInput()">Clear</button>
     </div>
   </nav>
 
   <!-- Home Section -->
   <header class="hero-section">
-    <div class="hero-text">
-      <h1>DISCOVER</h1>
-      <h1>UNFORGETTABLE</h1>
-      <h1>JOURNEYS</h1>
-      <p>We help you uncover hidden gems and create experiences that stay with you forever. Your next adventure starts here.</p>
-      <button class="book-btn">Book Now</button>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>DISCOVER</h1>
+            <h1>UNFORGETTABLE</h1>
+            <h1>JOURNEYS</h1>
+            <p>We help you uncover hidden gems and create experiences that stay with you forever. Your next adventure starts here.</p>
+            <button class="book-btn">Book Now</button>
+        </div>
+
+        <div id="recommendations" class="recommendation-sidebar"></div>
     </div>
+    
   </header>
 
   <!-- About Us Content -->
@@ -85,8 +89,8 @@
   </div>
 
   <!-- destination recommendation -->
-  <h1 style="text-align:center;">Travel Recommendations</h1>
-  <div id="recommendations"></div>
+  <!-- <h1 style="text-align:center;">Travel Recommendations</h1> -->
+  <!-- <div id="recommendations"></div> -->
 
 
   <script src="travel_recommendation.js"></script>
