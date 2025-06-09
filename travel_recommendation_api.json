@@ -27,7 +27,7 @@
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "kyoto.jpg",
+          "imageUrl": "kyoto-japan.jpg",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
@@ -38,7 +38,7 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "rio.jpg",
+          "imageUrl": "rio-brazil.jpg",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
         },
         {
